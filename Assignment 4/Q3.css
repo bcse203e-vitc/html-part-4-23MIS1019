@@ -1,0 +1,93 @@
+body {
+    background: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .vit-header {
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 22px;
+  }
+  .vit-logo {
+    width: 96px;
+    margin-bottom: 6px;
+  }
+  .vit-title {
+    font-size: 2.1em;
+    color: #22227c;
+    font-weight: bold;
+    letter-spacing: 2.2px;
+  }
+  .vit-subtitle {
+    font-size: 1.16em;
+    color: #22429a;
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  .vit-desc {
+    color: #187900;
+    font-size: 0.98em;
+    margin-top: 2px;
+    margin-bottom: 7px;
+  }
+  
+  .card-box {
+    border: 2px solid #3cb43a;
+    background: #fff;
+    width: 450px;
+    margin: 0 auto;
+    padding: 22px 28px 20px 28px;
+    box-shadow: 0 2px 9px #eee;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .card-title {
+    color: #234a7a;
+    font-size: 1.29em;
+    margin-bottom: 0.66em;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 1px solid #c7d2cc;
+    padding-bottom: 4px;
+  }
+  .card-metadata {
+    color: #567e67;
+    font-size: 0.98em;
+    margin-bottom: 16px;
+  }
+  .card-content {
+    color: #26433d;
+    font-size: 1.06em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .card-btn {
+    display: inline-block;
+    background: #3799cc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 18px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.18s;
+    box-shadow: 0 1px 4px #dde;
+  }
+  .card-btn:hover {
+    background: #2578aa;
+  }
+  
+ 
+  @media (max-width: 520px) {
+    .card-box {
+      width: 95vw;
+      padding: 14px 6vw;
+    }
+    .vit-logo {
+      width: 70px;
+    }
+  }
+  
