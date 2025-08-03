@@ -1,0 +1,42 @@
+body {
+  background: #f5f5f5;
+}
+
+.button-row {
+  background: #f2f3f4;
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin: 42px;
+  border-radius: 12px;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 22px 48px;
+  border: none;
+  border-radius: 13px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition:
+    background 0.2s ease,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.15s;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  box-shadow: 0 2px 7px rgba(34, 56, 80, 0.08);
+}
+
+.save    { background: #39b57c; }
+.save:hover   { background: #2e9264; transform: scale(1.07); }
+.save:active  { box-shadow: 0 4px 24px rgba(60, 180, 115, 0.18); }
+
+.cancel  { background: #cb3a33; }
+.cancel:hover  { background: #ac2620; transform: scale(1.07); }
+.cancel:active { box-shadow: 0 4px 24px rgba(203, 58, 51, 0.18); }
+
+.submit  { background: #2877a8; }
+.submit:hover  { background: #145183; transform: scale(1.07); }
+.submit:active { box-shadow: 0 4px 24px rgba(40, 119, 168, 0.18); }
